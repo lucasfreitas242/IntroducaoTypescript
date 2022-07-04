@@ -1,9 +1,10 @@
+"use strict";
 function somaValores(input1, input2) {
     if (typeof input1 === 'string' || typeof input2 === 'string') {
         return input1.toString() + input2.toString();
     }
     else {
-        var somaInt = input1 + input2;
+        let somaInt = input1 + input2;
         return somaInt;
     }
 }
